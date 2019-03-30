@@ -1,31 +1,16 @@
-Stellar by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Math IRL: a Virtual Reality 3D Graphing function
 
+How the project works is simple:
 
-Say hello to Stellar, a slick little one-pager with a super vibrant color palette (which
-I guess you can always tone down if it's a little too vibrant for you), a "sticky" in-page
-nav bar (powered by my Scrollex plugin), a separate generic page template (just in case
-you need one), and an assortment of pre-styled elements.
+-The user inputs a function in index.html
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+-index.html redirects to main_page.html, sending the function information.
 
-(* = not included)
+-The function is parsed and a grid of points is created.
 
-AJ
-aj@lkn.io | @ajlkn
+-The grid of points is transformed into Mesh, a 3D model.
 
+-With the help of ar.js, the 3D model is displayed on the tracker.
+(Note: the functionality of the above three is all contained in grapher_and_ar.js)
 
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+And it's really that simple!
